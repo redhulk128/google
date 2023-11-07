@@ -1,0 +1,41 @@
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav-links {
+    margin-bottom: 1rem;
+}
+
+#nav-links>a {
+    background-color: #efefef;
+    color: blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+#nav-links>a:first-child {
+    background-color: blue;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+footer > p{
+    margin: 15px;
+    font-size: 10px;
+}
